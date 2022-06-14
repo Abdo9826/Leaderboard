@@ -21,13 +21,13 @@ ul {
   border: 1px solid black;
 }
 
-li:nth-child(odd) {
-  background: rgb(218, 218, 218);
-}
-
 li {
   height: 26px;
   margin-left: -39px;
+}
+
+li:nth-child(odd) {
+  background: rgb(218, 218, 218);
 }
 
 .submit {
