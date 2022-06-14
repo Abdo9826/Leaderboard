@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _set
   \**********************/
 /***/ (() => {
 
-eval("const boards = [\r\n  {\r\n    name: 'Name',\r\n    score: 100,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 360,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 460,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 1000,\r\n  },\r\n];\r\nboards.forEach((board) => {\r\n  document.querySelector(\r\n    '.list'\r\n  ).innerHTML += `<li>${board.name}: ${board.score}</li>`;\r\n});\r\n\r\nlocalStorage.setItem('names and scores', JSON.stringify(boards));\r\n\n\n//# sourceURL=webpack://leaderboard/./src/setup.js?");
+eval("const boards = [\r\n  {\r\n    name: 'Name',\r\n    score: 100,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 360,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 460,\r\n  },\r\n  {\r\n    name: 'Name',\r\n    score: 1000,\r\n  },\r\n];\r\nboards.forEach((board) => {\r\n  const lists = document.querySelector('.list');\r\n  lists.innerHTML += `<li>${board.name}: ${board.score}</li>`;\r\n});\r\n\r\nlocalStorage.setItem('names and scores', JSON.stringify(boards));\r\n\n\n//# sourceURL=webpack://leaderboard/./src/setup.js?");
 
 /***/ })
 

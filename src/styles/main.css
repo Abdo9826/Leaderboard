@@ -21,7 +21,7 @@ ul {
   border: 1px solid black;
 }
 
-ul li:nth-child(odd) {
+li:nth-child(odd) {
   background: rgb(218, 218, 218);
 }
 
