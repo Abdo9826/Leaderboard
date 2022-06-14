@@ -17,9 +17,8 @@ const boards = [
   },
 ];
 boards.forEach((board) => {
-  document.querySelector(
-    '.list'
-  ).innerHTML += `<li>${board.name}: ${board.score}</li>`;
+  const lists = document.querySelector('.list');
+  lists.innerHTML += `<li>${board.name}: ${board.score}</li>`;
 });
 
 localStorage.setItem('names and scores', JSON.stringify(boards));
