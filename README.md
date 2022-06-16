@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 To setup the project locally: clone the repository using:
 
 ```
-https://github.com/ABDULALI3468/Leader-board-project-using-API-s.git
+git@github.com:Abdo9826/Leaderboard.git
 ```
 
 ### Install dependencies
