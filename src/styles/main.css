@@ -1,8 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 section {
+  margin-top: 60px;
+  margin-left: 45px;
   display: flex;
 }
 
@@ -19,11 +27,13 @@ ul {
   justify-content: space-between;
   flex-direction: column;
   border: 1px solid black;
+  box-shadow: 0 15px 30px rgb(0, 0, 0.3);
 }
 
 li {
   height: 26px;
-  margin-left: -39px;
+  margin-left: -40px;
+  padding-left: 20px;
 }
 
 li:nth-child(odd) {

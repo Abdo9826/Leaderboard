@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 const refresh = document.querySelector('.refresh');
 const submit = document.querySelector('.submit');
 
